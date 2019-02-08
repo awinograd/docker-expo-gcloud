@@ -1,5 +1,5 @@
 FROM lakoo/node-alpine-gcloud:latest
-MAINTAINER William Chong <williamchong@lakoo.com>
+MAINTAINER Alec Winograd <awinograd@gmail.com>
 
 RUN yarn global add expo-cli
 ENV PATH ~/.yarn/bin:$PATH
