@@ -22,7 +22,7 @@ RUN sed -i -- 's/\"disable_updater\": false/\"disable_updater\": true/g' /opt/go
 RUN mkdir ${HOME}/.ssh
 ENV PATH /opt/google-cloud-sdk/bin:$PATH
 
-RUN yarn global add expo-cli
+RUN yarn global add expo-cli@2.19.0
 ENV PATH ~/.yarn/bin:$PATH
 
 RUN echo "http://dl-cdn.alpinelinux.org/alpine/edge/community" >> /etc/apk/repositories
